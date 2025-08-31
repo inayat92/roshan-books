@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inayat Books</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">📚 roshanBooks</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Books</a></li>
+        <li><a href="login.html" class="btn">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" style="background-image: url('/bg\ books.jpeg');">
+    <div class="hero-content">
+      <h1>Welcome to Roshan Books</h1>
+      <p>Discover, Read & Enjoy the world of knowledge.</p>
+      <a href="login.html" class="btn primary-btn">Get Started</a>
+    </div>
+  </section>
+
+  <!-- Featured Books -->
+  <section class="books">
+    <h2>📖 Featured Books</h2>
+    <div class="book-grid">
+      <div class="book-card">
+        <img src="/book 2.jpg" alt="Book 1">
+        <h3>Flutter</h3>
+        <a href="/flutterbook.pdf" download class="btn">Download</a>
+        <!-- <button class="btn download-btn" onclick="downloadBook('/flutterbook.pdf')">Download</button> -->
+      </div>
+      <div class="book-card">
+        <img src="/book 3.jpg" alt="Book 2">
+        <h3>Java</h3>
+         <a href="/javanotes5.pdf" download class="btn">Download</a>
+        <!-- <button class="btn download-btn" onclick="downloadBook('java.pdf', 'https://www.iitk.ac.in/esc101/share/downloads/javanotes5.pdf')">Download</button> -->
+      </div>
+      <div class="book-card">
+        <img src="/book 4.jpeg" alt="Book 3">
+        <h3>Python</h3>
+        <a href="/javanotes5.pdf" download class="btn">Download</a>
+        <!-- <button class="btn download-btn" onclick="downloadBook('python.pdf', 'https://assets.openstax.org/oscms-prodcms/media/documents/Introduction_to_Python_Programming_-_WEB.pdf')">Download</button> -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 roshanBooks. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
